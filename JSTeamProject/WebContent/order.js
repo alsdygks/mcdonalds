@@ -10,6 +10,7 @@ function Order(odrNo, odrPNum, odrPName, odrEmpName, odrCNum, odrQuan, odrPrice 
 	this.odrQuan = odrQuan,			//수량
 	this.odrPrice = odrPrice,		//가격
 	this.odrStore = odrStore		//판매점보
+	
 }
 
 //get
