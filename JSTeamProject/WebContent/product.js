@@ -12,6 +12,7 @@ this.pCalory=pCalory //칼로리
 Employee.prototype.getNo = function(){
 	return this.pNum
 	}
+
 Employee.prototype.getName = function(){
 	return this.pName
 	}
