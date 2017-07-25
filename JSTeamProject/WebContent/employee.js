@@ -30,3 +30,11 @@ Employee.prototype.setEmpSex = function(empSex){this.empSex = empSex;}
 Employee.prototype.setEmpPart = function(empPart){this.empPart = empPart;}
 Employee.prototype.setEmpPos = function(empPos){this.empPos = empPos;}
 Employee.prototype.setEmpWorkHour = function(empWorkHour){this.empWorkHour = empWorkHour;}
+
+//toString
+Employee.prototype.toString = function(){
+	console.log('사번' + this.empNo + ', 이름: ' + this.empName 
+			+ ', 나이:' + this.empAge + ', 성별: ' + this.empSex);
+	console.log('직무: ' + this.empPart + ', 월급: ' + this.empSal
+			+ ', 직급: ' + this.empPos + ', 근무시간: ' + this.empWorkHour);
+}
