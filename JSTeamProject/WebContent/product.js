@@ -9,41 +9,41 @@ function Product(pNum,pName ,pPrice,pType,pWeight,pCalory){
 	this.pWeight=pWeight, //제품 중량
 	this.pCalory=pCalory //칼로리
 }
-Employee.prototype.getpNum = function(){
+Product.prototype.getpNum = function(){
 	return this.pNum
 }
-Employee.prototype.getpName = function(){
+Product.prototype.getpName = function(){
 	return this.pName
 }
-Employee.prototype.getpPrice = function(){
+Product.prototype.getpPrice = function(){
 	return this.pPrice
 }
-Employee.prototype.getpType = function(){
+Product.prototype.getpType = function(){
 	return this.pType
 }
-Employee.prototype.getpWeight = function(){
+Product.prototype.getpWeight = function(){
 	return this.pWeight
 }
-Employee.prototype.getpCalory = function(){
+Product.prototype.getpCalory = function(){
 	return this.pCalory
 }
 // 위  get 아래  set 
-Employee.prototype.setpNum = function(pNum){
+Product.prototype.setpNum = function(pNum){
 	this.pNum=pNum;
 }
-Employee.prototype.setpName = function(pName){
+Product.prototype.setpName = function(pName){
 	this.pName=pName;
 }
-Employee.prototype.setpPrice = function(pPrice){
+Product.prototype.setpPrice = function(pPrice){
 	this.pPrice=pPrice;
 }
-Employee.prototype.setpType = function(pType){
+Product.prototype.setpType = function(pType){
 	this.pType=pType;
 }
-Employee.prototype.setpWeight = function(pWeight){
+Product.prototype.setpWeight = function(pWeight){
 	this.pWeight=pWeight;
 }
-Employee.prototype.setpCalory = function(pCalory){
+Product.prototype.setpCalory = function(pCalory){
 	this.pCalory=pCalory;
 }
 
