@@ -1,6 +1,7 @@
 /**
  * 
  */
+
 function Employee(empNo,empName ,empAge ,empSal ,empSex ,empPart ,empPos ,empWorkHour){
  	this.empNo = empNo ,//사번
 	this.empName= empName , //이름
@@ -12,3 +13,4 @@ function Employee(empNo,empName ,empAge ,empSal ,empSex ,empPart ,empPos ,empWor
 	this.empWorkHour=empWorkHour//근무시간
 		
 }
+
