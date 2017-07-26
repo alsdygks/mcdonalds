@@ -3,7 +3,7 @@
  */
 
 function Worker(part){
-	person.call(this,no, name, age, sex);
+	Employee.call(this,empNo, empName, empAge, empSex, empSal, empWorkHour);
 	this.part = part;
 }
 
