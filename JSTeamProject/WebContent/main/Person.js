@@ -21,4 +21,4 @@ Person.prototype.setNo = function(no){this.no = no;}
 Person.prototype.setName = function(name){this.name = name;}
 Person.prototype.setAge = function(age){this.age = age;}
 Person.prototype.setSex = function(sex){this.age = age;}
-//Person.prototype.setAddress = function(address){this.address = address;}
+//Person.prototype.setAddress = function(address){this.address = address;} 
