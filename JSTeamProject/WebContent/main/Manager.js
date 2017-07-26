@@ -20,4 +20,4 @@ Manager.prototype.hire = function(){
 }
 Manager.prototype.mngWork = function(){
 	console.log('매니저 일을 합니다');
-}
+} 
