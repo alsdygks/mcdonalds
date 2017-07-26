@@ -5,23 +5,51 @@ this.pPrice=pPrice, //제품가격
 this.pType=pType,//제품종류 (1버거,2사이드메뉴,3음료 )
 this.pWeight=pWeight, //제품 중량
 this.pCalory=pCalory //칼로리
-}
-Employee.prototype.getNo = function(){
+}   
+
+Product.prototype.getpNum = function(){
     return this.pNum
     }
-
-Employee.prototype.getName = function(){
+Product.prototype.getpName = function(){
     return this.pName
     }
-Employee.prototype.getPrice = function(){
+Product.prototype.getpPrice = function(){
     return this.pPrice
     }
-Employee.prototype.getType = function(){
+Product.prototype.getpType = function(){
     return this.pType
     }
-Employee.prototype.getWeight = function(){
+Product.prototype.getpWeight = function(){
     return this.pWeight
     }
-Employee.prototype.getCalory = function(){
+Product.prototype.getpCalory = function(){
     return this.pCalory
     }
+
+Product.prototype.setpNum = function(pNum){this.pNum=pNum};
+Product.prototype.setpName = function(pName){this.pName=pName};
+Product.prototype.setpPrice = function(pPrice){this.pPrice=pPrice};
+Product.prototype.setpType = function(pType){this.pType=pType};
+Product.prototype.setpWeight = function(pWeight){this.pWeight=pWeight};
+Product.prototype.setpCalory = function(pCalory){this.pCalory=pCalory};
+
+Product.prototype.toString  = function(){ 'pNum : '+this.pNum+' pName : '+this.pName+' pPrice : '+this.pPrice+' pType : '+this.pType+' pWeight : '+this.pWeight+' pCalory : '+this.pCalory  };
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
