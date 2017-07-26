@@ -26,7 +26,7 @@ Order.prototype.setodrPrice = function(odrPrice){ this.odrPrice = odrPrice }//�
 
 
 //toString
-Customer.prototype.toString = function(){
+Order.prototype.toString = function(){
     return '주문번호' + this.odrNo + ', 상품명: ' + this.odrPName 
             + ', 계산원:' + this.odrEName + ', 고객넘버: ' + this.odrCName
             + ', 수량: ' + this.odrCnt+ ', 가격: ' + this.odrPrice;
