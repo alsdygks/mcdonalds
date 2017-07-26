@@ -25,7 +25,6 @@ Customer.prototype.eat = function(){
 }
 
 
-
 //toString
 Customer.prototype.toString = function(){
     return '고객번호: ' + this.no +
