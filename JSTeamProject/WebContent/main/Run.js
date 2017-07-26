@@ -17,10 +17,19 @@ owner.countCash();
 console.log(' ');
 
 //
+console.log('------------------ 사원 정보 출력 --------------------');
+var worker = [];
+
+
+
+
+console.log(' ');
+//
 console.log('------------------ 매니저 정보 출력 --------------------');
+var mng = [];
 
 
-
+console.log(' ');
 //customer 배열에 push 해보기
 var customer = [];
 customer.push(new Customer('c001', '뚱이', 27, '남자', 108));
@@ -44,7 +53,7 @@ customer[0].eat();
 
 
 
-
+//영업점 시나리오 한편 ㅋ
 
 
 
