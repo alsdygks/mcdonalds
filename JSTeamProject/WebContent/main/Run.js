@@ -9,10 +9,17 @@
 
 
 //
+console.log('------------------ 지점장 정보 출력 --------------------');
 var owner = new Owner('o001', 'John Cena', 87, '남자', 3000, 3, '티아카데미');
 
 console.log(owner.toString());
 owner.countCash();
+console.log(' ');
+
+//
+console.log('------------------ 매니저 정보 출력 --------------------');
+
+
 
 //customer 배열에 push 해보기
 var customer = [];
@@ -28,5 +35,20 @@ for(i in customer){
 	console.log(customer[i].toString());
 }
 
-console.log();
+console.log(' ');
+console.log(customer[0].getName() + '고객의 현재 몸무게: ' + 
+		customer[0].getcWeight());
 customer[0].eat();
+
+
+
+
+
+
+
+
+
+
+
+
+
