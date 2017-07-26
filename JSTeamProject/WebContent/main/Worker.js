@@ -6,6 +6,7 @@ function Worker(empNo, empName, empAge, empSex, empSal, empWorkHour,part){
 	Employee.call(this,empNo, empName, empAge, empSex, empSal, empWorkHour);
 	this.part = part;
 }
+Worker.prototype=new Employee();
 
 Worker.prototype.getPart = function(){
 	return this.part;
