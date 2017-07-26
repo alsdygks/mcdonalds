@@ -24,7 +24,7 @@ Owner.prototype.toString = function(){
 		   '  이름: ' + this.name +
 		   '  나이: ' + this.age +
 		   '  성별: ' + this.sex +
-		   '\n월급: ' + this.empSal +
+		   '\n월급: ' + this.empSal + '만원' + 
 		   '  근무시간: ' + this.empWorkHour +
 		   '  지점명: ' + this.division
 }
