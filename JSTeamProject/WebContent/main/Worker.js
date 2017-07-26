@@ -6,6 +6,7 @@ function Worker(empNo, empName, empAge, empSex, empSal, empWorkHour,part){
 	Employee.call(this,empNo, empName, empAge, empSex, empSal, empWorkHour);
 	this.part = part;
 }
+Worker.prototype=new Employee();
 
 Worker.prototype.getPart = function(){
 	return this.part;
@@ -31,5 +32,11 @@ Worker.prototype.ride= function(){
 
 };
 Worker.prototype.toString = function(){
-	console.log('part : '+part);
-}
+	console.log('no : ' + this.no + ', name: ' + this.name + 
+			', age : ' + this.age + ', sex : ' + 
+			this.sex + ', empSal : ' + this.empSal+
+			'\nempWorkHour : ' + this.empWorkHour + 
+			', part : ' + this.part);
+};
+
+
