@@ -3,7 +3,7 @@ function Employee(empNo, empName, empAge, empSex, empSal, empWorkHour){
 	this.empSal=empSal ,//월급
     this.empWorkHour=empWorkHour//근무시간
 
-} 
+}   
 Employee.prototype = new Person();
 
 // getters n setters
