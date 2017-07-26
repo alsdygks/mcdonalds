@@ -8,7 +8,7 @@ function Person(no, name, age, sex){//}, address){
     this.age = age,
     this.sex = sex//,
 //    this.address = address
-}
+} 
 
 //getters n setters
 Person.prototype.getNo = function(){return this.no;}
