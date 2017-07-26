@@ -1,8 +1,9 @@
 function Manager(mngNo,empNo){
-this.mngNo = mngNo,//매니저 넘버
-this.empNo = empNo//직원 넘버
+	Employee.call(this, empNo, empName, empAge, empSex, empSal, empWorkHour, mngNo, empNo)
+	this.mngNo = mngNo,//매니저 넘버
+	this.empNo = empNo//직원 넘버
 }
-
+Manager.prototype = new Employee();
 //getters n setters
 Manager.prototype.getmngNo = function(){return this.mngNo;}//매니저 넘버
 Manager.prototype.getempNo = function(){return this.empNo;}//직원 넘버
