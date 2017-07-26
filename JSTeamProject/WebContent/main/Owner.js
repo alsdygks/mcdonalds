@@ -4,7 +4,8 @@
 
 function Owner(empNo, empName, empAge, empSex, 
 		empSal, empWorkHour,division){
-	Employee.call(this);
+	Employee.call(this, empNo, empName, empAge, empSex,
+			empSal, empWorkHour, division);
 	this.division = division	//소유한 지점
 }
 
@@ -29,7 +30,7 @@ Owner.prototype.toString = function(){
 
 //기능
 Owner.prototype.countCash = function(){
-	console.log('지점장이 돈을 셉니다.');
+	console.log(this.name + ' 지점장이 돈을 셉니다.');
 }
 
 
