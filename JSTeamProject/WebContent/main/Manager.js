@@ -1,6 +1,9 @@
-function Manager(mngNo,empNo){
-this.mngNo = mngNo,//매니저 넘버
-this.empNo = empNo//직원 넘버
+function Manager(empNo, empName, empAge, empSex, 
+		empSal, empWorkHour, mngNo, empNo){
+	Employee.call(this, empNo, empName, empAge, empSex,
+			empSal, empWorkHour);
+	this.mngNo = mngNo,//매니저 넘버
+	this.empNo = empNo//직원 넘버
 }
 
 //getters n setters
@@ -20,4 +23,13 @@ Manager.prototype.hire = function(){
 }
 Manager.prototype.mngWork = function(){
 	console.log('매니저 일을 합니다');
+}
+
+Manager.prototype.showMyWorkers = function(){
+	
+	for(i in this.empNo){
+		console.log(this.mngNo + '번 ' + this.name + '의 관리 직원: ' + 
+				'[사번: ' + empNo[i].getEmpNo() + ' 사원명: ' + 
+				empNo[i].getEmpName() + ']');
+	}
 }

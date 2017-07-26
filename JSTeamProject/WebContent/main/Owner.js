@@ -5,7 +5,7 @@
 function Owner(empNo, empName, empAge, empSex, 
 		empSal, empWorkHour,division){
 	Employee.call(this, empNo, empName, empAge, empSex,
-			empSal, empWorkHour, division);
+			empSal, empWorkHour);
 	this.division = division	//소유한 지점
 }
 
