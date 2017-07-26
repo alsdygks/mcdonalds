@@ -28,4 +28,4 @@ Order.prototype.setOdrEmpName = function(){ this.odrEmpName = odrEmpName }//계�
 Order.prototype.setOdrCNum = function(){ this.odrCNum = odrCNum }//고객넘버
 Order.prototype.setOdrQuan = function(){ this.odrQuan = odrQuan }//수량
 Order.prototype.setOdrPrice = function(){ this.odrPrice = odrPrice }//가격
-Order.prototype.setOdrStore = function(){ this.odrStore = odrStore }//판매점보
+Order.prototype.setOdrStore = function(){ this.odrStore = odrStore }//판매점보 
