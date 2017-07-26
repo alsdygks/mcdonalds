@@ -31,5 +31,7 @@ Worker.prototype.ride= function(){
 
 };
 Worker.prototype.toString = function(){
-	console.log('part : '+part);
-}
+	console.log('no : '+this.no+'name'+this.name+'age : '+this.age+'sex : '+this.sex+'empSal : '+this.empSal+'empWorkHour : '+this.empWorkHour+'part : '+this.part);
+};
+
+
