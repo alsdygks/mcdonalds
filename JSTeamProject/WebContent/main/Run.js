@@ -8,6 +8,7 @@
 //function Customer(cNum,cName,cAge,cSex,cWeight){
 
 
+//
 var owner = new Owner('o001', 'John Cena', 87, '남자', 3000, 3, '티아카데미');
 
 console.log(owner.toString());
@@ -22,8 +23,10 @@ customer.push(new Customer('c004', '스폰지밥', 24, '남자', 27));
 customer.push(new Customer('c005', '징징이', 29, '남자', 62));
 customer.push(new Customer('c006', '퐁퐁부인', 47, '여자', 98));
 
+console.log('------------------ 고객정보 출력 --------------------');
 for(i in customer){
 	console.log(customer[i].toString());
 }
 
+console.log();
 customer[0].eat();
