@@ -21,4 +21,4 @@ Customer.prototype.setcAge = function(cAge){this.cAge = cAge;}//고객 연령대
 Customer.prototype.toString = function(){
     return '고객 넘버' + this.cNum + ', 고객 이름: ' + this.cName 
             + ', 고객 성별:' + this.cGender + ', 고객 연령대: ' + this.cAge;
-}
+} 
