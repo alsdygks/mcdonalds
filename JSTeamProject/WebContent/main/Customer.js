@@ -1,20 +1,14 @@
 function Customer(cNum,cName,cAge,cSex,cWeight){
-	Person.call(this, cNum, cName,cAge,cSex)
+	Person.call(this, cNum, cName,cAge,cSex);
 	this.cWeight = cWeight
 }
 
 Customer.prototype = new Person();
 
 //getters n setters
-Customer.prototype.getcNum = function(){return this.cNum;}//고객 넘버
-Customer.prototype.getcName = function(){return this.cName;}//고객 이름
-Customer.prototype.getcGender = function(){return this.cGender;}//고객 성별
-Customer.prototype.getSex = function(){return this.sex;}// 고객 연령대
+Customer.prototype.getcWeight = function(){return this.cWeight;}//고객 몸무게
 
-Customer.prototype.setcNumo = function(cNum){this.cNum = cNum;}//고객 넘버
-Customer.prototype.setcName = function(cName){this.cName = cName;}//고객 이름
-Customer.prototype.setcGender = function(cGender){this.cGender = cGender;}//고객 성별
-Customer.prototype.setcAge = function(cAge){this.cAge = cAge;}//고객 연령대
+Customer.prototype.setcWeight = function(cWeight){this.cWeight = cWeight;}//고객 몸무게
 
 //기능
 Customer.prototype.purchase = function(){
@@ -34,6 +28,8 @@ Customer.prototype.eat = function(){
 
 //toString
 Customer.prototype.toString = function(){
-    return '고객 넘버' + this.cNum + ', 고객 이름: ' + this.cName 
-            + ', 고객 성별:' + this.cGender + ', 고객 연령대: ' + this.cAge;
+    return '고객번호: ' + this.no +
+    	   '  고객명: ' + this.name +
+    	   '  나이: ' + this.age +
+    	   '  성별: ' + this.sex;	//wat bout console.log?
 }
